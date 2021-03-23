@@ -7,11 +7,19 @@
 </head>
 
 <body>
-    <form id="form">
-        <input type="text" id="search" placeholder="Enter a song's name">
-        <button>Search</button>
-    </form>
-    <div class="container" id="result"></div>
+    <div class="container">
+        <br>
+        <br>
+        <form id="form">
+            <div class="mb-3">
+                <input type="text" class="form-control" id="search" aria-describedby="moreInfo">
+                <div id="search" class="form-text">Enter a song, artist or both.</div>
+            </div>
+            <button class="btn btn-primary">Search</button>
+        </form>
+        <br>
+        <table id="result" class="table table-hover"></div>
+    </div>
     <script src="script.js"></script>
 </body>
 
